@@ -1,2 +1,2 @@
-# mil
-MIL Kursus - Eksempel på Microlearning
+# MIL Kursus
+Design af online undervisning
