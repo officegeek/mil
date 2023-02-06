@@ -4,7 +4,6 @@ Du har modtaget to CSV filer der indeholder henholdsvis salgs data og produkt na
 - [salgsdata.csv](./data/salgsdata.csv)
 - [produktnavn.csv](./data/produktnavn.csv)
 
-
 ## Import i Excel
 Det er simpelt at importere CSV filer i Excel følg denne video
 
@@ -20,33 +19,33 @@ Det er simpelt at importere CSV filer i Excel følg denne video
 ## Import med programmering
 Det er muligt at automatisere din import ved at bruge VBA programmering.
 
-#### VIDEO
+### VIDEO
+**Her er en video**
 
+### VBA Kode
+Her er VBA koden for import af en CSV vil 
 ``` vb
 Sub ImportCSVFile()
 
     Dim Ws As Worksheet
     Dim FileName As String
 
-    Set Ws = ActiveWorkbook.Sheets("Sheet1")    ' change to suit
+    Set Ws = ActiveWorkbook.Sheets("Sheet1")
 
-    FileName = Application.GetOpenFilename("Text Files (*.csv),*.csv", , _
-               "Please select source file")
+    FileName = Application.GetOpenFilename("Text Files (*.csv),*.csv", ,"Vælg CSV fil")
 
-    With Ws.QueryTables.Add(Connection:="TEXT;" & FileName, _
-                            Destination:=Ws.Range("A1"))       ' change to suit
+    With Ws.QueryTables.Add(Connection:="TEXT;" & FileName, Destination:=Ws.Range("A1"))
          .TextFileParseType = xlDelimited
          .TextFileCommaDelimiter = True
          .Refresh
     End With
+
 End Sub
 ```
 
-
 ## Opgaver
-Du kan prøve din nye viden på disse opgaver.
-De er inddelt alt efter om du vil fortage importen direkte fra Excel eller om du vil bruge VBA til opgave.
-
+Nu er det din tur til at prøve din nye viden.
+Disse to opgaver er inddelt alt efter om du vil fortage importen direkte fra Excel eller om du vil bruge VBA til opgave.
 
 ### Opgave - Import i Excel
 Denne opgave er til dig der vil importere dine CSV filer i Excel
@@ -67,6 +66,7 @@ De skal importeres til tabeller i Excel
 - Fil_2.csv
 - Fil_3.csv
 
+#### Løsning
+Her kan du hente mit forslag til en løsning
 
-
-
+[Min_løsning.xlsm]()
