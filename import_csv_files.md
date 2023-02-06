@@ -7,9 +7,8 @@ Du har modtaget to CSV filer der indeholder henholdsvis salgs data og produkt na
 ## Import i Excel
 Det er simpelt at importere CSV filer i Excel følg denne video
 
-### https://www.loom.com/embed/7cb1614f9d4049a1a09b625329cffe7b
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6d093be303ca4797a96509e1e7b143d9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7cb1614f9d4049a1a09b625329cffe7b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Trin for trin
 - Vælg **Data** fanen
