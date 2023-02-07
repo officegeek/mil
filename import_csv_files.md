@@ -21,7 +21,8 @@ Det er simpelt at importere CSV filer i Excel følg denne video
 Det er muligt at automatisere din import ved at bruge VBA programmering.
 
 ### VIDEO
-**Her kommer der endnu en video**
+<div style="position: relative; padding-bottom: 80.49713193116635%; height: 0;"><iframe src="https://www.loom.com/embed/23faa1de5fcb4531a0be2e317fe03109" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<br />
 
 ### VBA Kode
 Her er VBA koden for import af en CSV vil 
