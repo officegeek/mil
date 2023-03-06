@@ -14,8 +14,6 @@ Det er simpelt at importere CSV filer i Excel følg denne video
 - Vælg **Data** fanen
 - Vælg **Get Data**
 - Vælg **CSV Filer**
-- xxx 
-- xxx
 
 ## Import med programmering
 Det er muligt at automatisere din import ved at bruge VBA programmering.
